@@ -1,0 +1,396 @@
+*,body{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D8D2C4ff;
+    position: absolute;
+    font-family: pastel;
+
+}
+header{
+    margin: 80px;
+}
+
+div.headerFont{
+    font-size: 80px;
+    padding: 150px 50px 150px 150px;
+}
+
+img.header{
+    position:relative;
+    max-height: 520px ;
+    max-width: 520px ;
+    -webkit-transform:rotate(5deg);
+    float: right;
+    margin-top: -470px;  
+    overflow: hidden    
+}
+
+nav{
+    background-color: #849B8Bff;
+    text-align: left;
+    font-family: song;
+}
+
+nav a{
+    padding: 30px;
+    color: #EAECE1ff;
+    font-size: 40px;
+    display: inline-block;
+}
+
+nav a:hover{
+    background-color: #515F46ff;
+}
+/* #menu {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+  } */
+p.a{
+    font-size: 45px;
+    padding:50px 0px 20px 0px;
+}
+
+p.empsiz{
+    padding-left: -10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bar {
+    margin: 5px;
+    width: 8em;
+    border-left-style: solid;
+    border-left-color: #6b9080;
+    font-size: larger;
+    border-radius: 20px;
+}
+
+.bar2 {
+    margin: 5px;
+    width: 500px;
+    border: solid #cce3de;
+    background-color: #cce3de;
+    position: absolute;
+    z-index: -1;
+    text-align: right;
+    border-radius: 20px;
+}
+
+.bar_mix {
+    display: inline-flex;
+    color: rgb(120, 63, 63);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    height: 50vh;
+    align-items: center;
+
+
+}
+.progress {
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background: #9cafab;
+    text-align: center;
+    line-height: 200px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px #386359;;
+}
+
+.progress .title {
+    position: relative;
+    z-index: 100;
+}
+.progress .overlay {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #9cafab;
+}
+.progress .left,
+.progress .right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 15px solid #515f46;
+    border-radius: 100px 0px 0px 100px;
+    border-right: 0;
+    transform-origin: right;
+}
+.progress .left {
+    animation: load1 1s linear forwards;
+}
+.progress:nth-of-type(2) .right,
+.progress:nth-of-type(3) .right {
+    animation: load2 0.5s linear forwards 1s;
+}
+.progress:last-of-type .right,
+.progress:first-of-type .right {
+    animation: load3 0.8s linear forwards 1s;
+}
+
+div.space{
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #515F46ff;
+    text-align: center;
+    font-family: song;
+}
+
+p.footer{
+    padding: 20px;
+    color: white;
+}
+
+.warp{
+    margin:100px;
+    letter-spacing: 3px;
+    line-height: 1.7;
+
+}
+.Sectionplace{
+    position:relative;
+}
+
+.arrange{
+    padding-left: 80px;
+}
+
+.card{
+    /* background-color: white; */
+    padding: 50px;
+    margin: 20px 90px 50px 80px;
+    border-radius: 20px;
+    background-image: url(https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg);
+    background-size: cover;
+    font-family: song;
+    
+    
+}
+
+.aboutcard{
+    padding: 50px;
+    padding-left: 60px;
+    border-radius: 20px;
+    margin: 20px 50px 50px 180px;
+    background-image: url(/img/bg/1.jpg);
+    background-size: cover;
+    font-family: song;
+}
+
+.imgabout{
+    position:relative;
+    max-height: 500px ;
+    max-width: 500px ;
+    -webkit-transform:rotate(5deg);
+    float: left;      
+    overflow: hidden    
+}
+
+.column{
+    position: relative;    
+    columns: 2;
+    column-gap: 15px;
+    margin: 30px;
+    overflow: hidden;
+    column-rule: 20px black;
+    text-align: justify;
+    -webkit-column-break-inside:avoid;
+}
+
+.expcard{
+    padding: 50px;
+    margin: 20px 90px 50px 80px;
+    border-radius: 20px;
+    background-image: url(https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg);
+    background-size: cover;
+    font-family: song;
+    
+    
+}
+
+.imgexp{
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.imgwork{
+    float: right;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 3px;
+}
+
+
+ol.sOne{
+    padding-left: 20px;
+}
+
+.top {
+    position: fixed;
+    bottom: 30px;
+    right: 60px;
+}
+.imptop{
+    height: 30px;
+    width: 30px;
+}
+
+.imgfooter{
+    height: 40px;
+    width: 40px;
+}
+
+    /* 字體 */
+
+@font-face {
+    font-family: 'pastel';
+    src: url('/font/HanyiSentySeaSpray.ttf') format("truetype"),
+}
+
+@font-face {
+    font-family: song;
+    src: url('/font/HanyiSentySong.ttf') format("truetype"),
+}
+
+
+    /* 動畫 */
+
+#html {
+    animation: bar1 1s ease;
+    animation-fill-mode: forwards;
+}
+
+#css {
+    animation: bar2 1s ease-in;
+    animation-fill-mode: forwards;
+}
+
+#java {
+    animation: bar3 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+#python {
+    animation: bar4 1s ease-out;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes bar1 {
+
+    /*進度條1*/
+    from {
+        border-left-width: 0px;
+    }
+
+    to {
+        border-left-width: 350px;
+    }
+}
+
+@keyframes bar2 {
+
+    /*進度條2*/
+    from {
+        border-left-width: 0px;
+    }
+
+    to {
+        border-left-width: 230px;
+    }
+}
+
+@keyframes bar3 {
+
+    /*進度條3*/
+    from {
+        border-left-width: 0px;
+    }
+
+    to {
+        border-left-width: 300px;
+    }
+}
+
+@keyframes bar4 {
+
+    /*進度條4*/
+    from {
+        border-left-width: 0px;
+    }
+
+    to {
+        border-left-width: 250px;
+    }
+}
+
+@keyframes load1 {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(180deg);
+    }
+}
+@keyframes load2 {
+    0% {
+    z-index: 100;
+    transform: rotate(180deg);
+    }
+    100% {
+    z-index: 100;
+    transform: rotate(270deg);
+    }
+}
+@keyframes load3 {
+    0% {
+    z-index: 100;
+    transform: rotate(180deg);
+    }
+    100% {
+    z-index: 100;
+    transform: rotate(315deg);
+    }
+}
