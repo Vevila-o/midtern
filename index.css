@@ -209,7 +209,7 @@ p.footer{
     padding-left: 60px;
     border-radius: 20px;
     margin: 20px 50px 50px 180px;
-    background-image: url(/img/bg/1.jpg);
+    background-image: url(img/bg/1.jpg);
     background-size: cover;
     font-family: song;
 }
@@ -286,12 +286,12 @@ ol.sOne{
 
 @font-face {
     font-family: 'pastel';
-    src: url('/font/HanyiSentySeaSpray.ttf') format("truetype"),
+    src: url('font/HanyiSentySeaSpray.ttf') format("truetype"),
 }
 
 @font-face {
     font-family: song;
-    src: url('/font/HanyiSentySong.ttf') format("truetype"),
+    src: url('font/HanyiSentySong.ttf') format("truetype"),
 }
 
 
